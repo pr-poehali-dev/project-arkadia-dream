@@ -2,6 +2,7 @@ import { Header } from "@/components/Header"
 import { HeroSection } from "@/components/HeroSection"
 import { PartnersSection } from "@/components/PartnersSection"
 import { FeaturesSection } from "@/components/FeaturesSection"
+import { PricingSection } from "@/components/PricingSection"
 
 export default function Index() {
   return (
@@ -10,6 +11,7 @@ export default function Index() {
       <HeroSection />
       <PartnersSection />
       <FeaturesSection />
+      <PricingSection />
       <footer className="py-8 text-center text-sm text-gray-400">
         От замера сигнала до подключения «под ключ» —{" "}
         <span className="font-medium text-white">интернет на даче без лишних хлопот.</span>
